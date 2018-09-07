@@ -9,7 +9,7 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(list_of_speakers)
- # "Hello, #{name}! You'll be assigned to room #{room_number}!"
+  list_of_speakers.map { |name, room_number| "Hello, #{name}! You'll be assigned to room #{room_number}!"}
 end
 
 def printer
