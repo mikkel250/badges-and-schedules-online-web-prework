@@ -13,6 +13,8 @@ def assign_rooms(list_of_speakers)
 end
 
 def printer(names)
-  puts batch_badge_creator
-  puts assign_rooms
+  a = batch_badge_creator
+  b = assign_rooms
+  puts a
+  puts b
 end
